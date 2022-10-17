@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Counter from '../components/counter';
+//import Counter from '../components/counter';
 import OwlCarousel from '../components/OwlCarousel';
 import styles from '../styles/Home.module.css';
 import React, { useEffect } from 'react';
