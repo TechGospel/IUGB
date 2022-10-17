@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import connectDB from '../../../utils/connectDB';
 import Courses from '../../../models/courseModel';
 import auth from '../../../middleware/auth';

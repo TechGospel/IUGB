@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import Link from 'next/link';
 import { useState, useContext, useEffect } from 'react';
 import { DataContext } from '../store/GlobalState';
