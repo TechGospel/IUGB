@@ -25,7 +25,7 @@ function CoursesSlider() {
 		>
 			<div className="single-courses-card style2">
 				<div className="courses-img">
-					<a href="courses-details.html">
+					<a href="#">
 						<img
 							src="assets/images/courses/courses-1.jpg"
 							alt="Image"
@@ -33,43 +33,15 @@ function CoursesSlider() {
 					</a>
 				</div>
 				<div className="courses-content">
-					<div className="admin-profile">
-						{/* <img
-							src="assets/images/courses/admin-1.jpg"
-							alt="Image"
-						/> */}
-						{/*<p>
-							With
-							<a href="courses-details.html">Jessica Hamson</a>
-						</p>*/}
-					</div>
-					<a href="courses-details.html">
-						<h3>Python Programming For Data Science</h3>
+					<div className="admin-profile"></div>
+					<a href="#">
+						<h3>Compter Science</h3>
 					</a>
-					{/* <div className="bottom-content">
-						<ul className="d-flex justify-content-between">
-							<li>
-								<ul>
-									<li>
-										<i className="flaticon-graduation"></i>
-										321
-									</li>
-									<li>
-										<i className="flaticon-bubble-chat"></i>
-										1.2k
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Free</a>
-							</li>
-						</ul>
-					</div> */}
 				</div>
 			</div>
 			<div className="single-courses-card style2">
 				<div className="courses-img">
-					<a href="courses-details.html">
+					<a href="#">
 						<img
 							src="assets/images/courses/courses-2.jpg"
 							alt="Image"
@@ -77,43 +49,15 @@ function CoursesSlider() {
 					</a>
 				</div>
 				<div className="courses-content">
-					<div className="admin-profile">
-						{/* <img
-							src="assets/images/courses/admin-2.jpg"
-							alt="Image"
-						/> */}
-						{/*<p>
-							With
-							<a href="courses-details.html">Christoph Baldwin</a>
-						</p>*/}
-					</div>
-					<a href="courses-details.html">
-						<h3>Databases: Advanced Topics In SQL</h3>
+					<div className="admin-profile"></div>
+					<a href="#">
+						<h3>Business Administration</h3>
 					</a>
-					{/* <div className="bottom-content">
-						<ul className="d-flex justify-content-between">
-							<li>
-								<ul>
-									<li>
-										<i className="flaticon-graduation"></i>
-										321
-									</li>
-									<li>
-										<i className="flaticon-bubble-chat"></i>
-										1.2k
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Free</a>
-							</li>
-						</ul>
-					</div> */}
 				</div>
 			</div>
 			<div className="single-courses-card style2">
 				<div className="courses-img">
-					<a href="courses-details.html">
+					<a href="#">
 						<img
 							src="assets/images/courses/courses-3.jpg"
 							alt="Image"
@@ -121,43 +65,15 @@ function CoursesSlider() {
 					</a>
 				</div>
 				<div className="courses-content">
-					<div className="admin-profile">
-						{/* <img
-							src="assets/images/courses/admin-3.jpg"
-							alt="Image"
-						/> */}
-						{/*<p>
-							With
-							<a href="courses-details.html">Morgen Matthias</a>
-						</p>*/}
-					</div>
-					<a href="courses-details.html">
-						<h3>Analyzing Data With MS Excel & Excel</h3>
+					<div className="admin-profile"></div>
+					<a href="#">
+						<h3>HR Management</h3>
 					</a>
-					{/* <div className="bottom-content">
-						<ul className="d-flex justify-content-between">
-							<li>
-								<ul>
-									<li>
-										<i className="flaticon-graduation"></i>
-										321
-									</li>
-									<li>
-										<i className="flaticon-bubble-chat"></i>
-										1.2k
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Free</a>
-							</li>
-						</ul>
-					</div> */}
 				</div>
 			</div>
 			<div className="single-courses-card style2">
 				<div className="courses-img">
-					<a href="courses-details.html">
+					<a href="#">
 						<img
 							src="assets/images/courses/courses-1.jpg"
 							alt="Image"
@@ -165,43 +81,15 @@ function CoursesSlider() {
 					</a>
 				</div>
 				<div className="courses-content">
-					<div className="admin-profile">
-						{/* <img
-							src="assets/images/courses/admin-1.jpg"
-							alt="Image"
-						/> */}
-						{/*<p>
-							With
-							<a href="courses-details.html">Jessica Hamson</a>
-						</p>*/}
-					</div>
-					<a href="courses-details.html">
-						<h3>Python Programming for Data Science</h3>
+					<div className="admin-profile"></div>
+					<a href="#">
+						<h3>Accountancy</h3>
 					</a>
-					{/* <div className="bottom-content">
-						<ul className="d-flex justify-content-between">
-							<li>
-								<ul>
-									<li>
-										<i className="flaticon-graduation"></i>
-										321
-									</li>
-									<li>
-										<i className="flaticon-bubble-chat"></i>
-										1.2k
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Free</a>
-							</li>
-						</ul>
-					</div> */}
 				</div>
 			</div>
 			<div className="single-courses-card style2">
 				<div className="courses-img">
-					<a href="courses-details.html">
+					<a href="#">
 						<img
 							src="assets/images/courses/courses-2.jpg"
 							alt="Image"
@@ -209,43 +97,15 @@ function CoursesSlider() {
 					</a>
 				</div>
 				<div className="courses-content">
-					<div className="admin-profile">
-						{/* <img
-							src="assets/images/courses/admin-2.jpg"
-							alt="Image"
-						/> */}
-						{/*<p>
-							With
-							<a href="courses-details.html">Christoph Baldwin</a>
-						</p>*/}
-					</div>
-					<a href="courses-details.html">
-						<h3>Databases: Advanced Topics in SQL</h3>
+					<div className="admin-profile"></div>
+					<a href="#">
+						<h3>Psychology</h3>
 					</a>
-					{/* <div className="bottom-content">
-						<ul className="d-flex justify-content-between">
-							<li>
-								<ul>
-									<li>
-										<i className="flaticon-graduation"></i>
-										321
-									</li>
-									<li>
-										<i className="flaticon-bubble-chat"></i>
-										1.2k
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Free</a>
-							</li>
-						</ul>
-					</div> */}
 				</div>
 			</div>
 			<div className="single-courses-card style2">
 				<div className="courses-img">
-					<a href="courses-details.html">
+					<a href="#">
 						<img
 							src="assets/images/courses/courses-3.jpg"
 							alt="Image"
@@ -253,43 +113,15 @@ function CoursesSlider() {
 					</a>
 				</div>
 				<div className="courses-content">
-					<div className="admin-profile">
-						{/* <img
-							src="assets/images/courses/admin-3.jpg"
-							alt="Image"
-						/> */}
-						{/*<p>
-							With
-							<a href="courses-details.html">Morgen Matthias</a>
-						</p>*/}
-					</div>
-					<a href="courses-details.html">
-						<h3>Analyzing Data With MS Excel & Excel</h3>
+					<div className="admin-profile"></div>
+					<a href="#">
+						<h3>International Relations</h3>
 					</a>
-					{/* <div className="bottom-content">
-						<ul className="d-flex justify-content-between">
-							<li>
-								<ul>
-									<li>
-										<i className="flaticon-graduation"></i>
-										321
-									</li>
-									<li>
-										<i className="flaticon-bubble-chat"></i>
-										1.2k
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Free</a>
-							</li>
-						</ul>
-					</div> */}
 				</div>
 			</div>
 			<div className="single-courses-card style2">
 				<div className="courses-img">
-					<a href="courses-details.html">
+					<a href="#">
 						<img
 							src="assets/images/courses/courses-1.jpg"
 							alt="Image"
@@ -297,38 +129,10 @@ function CoursesSlider() {
 					</a>
 				</div>
 				<div className="courses-content">
-					<div className="admin-profile">
-						{/* <img
-							src="assets/images/courses/admin-1.jpg"
-							alt="Image"
-						/> */}
-						{/*<p>
-							With
-							<a href="courses-details.html">Jessica Hamson</a>
-						</p>*/}
-					</div>
-					<a href="courses-details.html">
-						<h3>Python Programming for Data Science</h3>
+					<div className="admin-profile"></div>
+					<a href="#">
+						<h3>Economics, Banking & Finance</h3>
 					</a>
-					{/* <div className="bottom-content">
-						<ul className="d-flex justify-content-between">
-							<li>
-								<ul>
-									<li>
-										<i className="flaticon-graduation"></i>
-										321
-									</li>
-									<li>
-										<i className="flaticon-bubble-chat"></i>
-										1.2k
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Free</a>
-							</li>
-						</ul>
-					</div> */}
 				</div>
 			</div>
 		</OwlCarousel>

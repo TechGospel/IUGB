@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from 'next/link';
 import React from 'react';
 import CampusSlider from './CampusSlider';
 import CoursesSlider from './CoursesSlider';
@@ -20,14 +21,13 @@ function MainContent() {
 						>
 							<div className="campus-content">
 								<div className="campus-title">
-									<h2>Campus Information</h2>
+									<h2>Who we are</h2>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit, sed do eiusmod tem
-										incid idunt ut labore et dolore magna
-										aliqua. Ut enim ad minim ven iam quis
-										nostrud xerci tation ulla mco laboris
-										nisi ut
+										IUGB is attracting the best expert
+										thinkers, unusual managers, and
+										hyper-resourceful technocrats in all
+										fields of human endeavours who are
+										committed to pioneering excellence.
 									</p>
 								</div>
 								<div className="list">
@@ -36,19 +36,11 @@ function MainContent() {
 											<ul>
 												<li>
 													<i className="ri-check-fill"></i>
+													<p>Undergraduate</p>
+												</li>
+												<li>
+													<i className="ri-check-fill"></i>
 													<p>Graduate Programs</p>
-												</li>
-												<li>
-													<i className="ri-check-fill"></i>
-													<p>Programs</p>
-												</li>
-												<li>
-													<i className="ri-check-fill"></i>
-													<p>Doctoral Degrees</p>
-												</li>
-												<li>
-													<i className="ri-check-fill"></i>
-													<p>Alumni & Giving</p>
 												</li>
 											</ul>
 										</div>
@@ -56,16 +48,9 @@ function MainContent() {
 											<ul>
 												<li>
 													<i className="ri-check-fill"></i>
-													<p>Undergraduate</p>
-												</li>
-												<li>
-													<i className="ri-check-fill"></i>
 													<p>International Hubs</p>
 												</li>
-												<li>
-													<i className="ri-check-fill"></i>
-													<p>Doctoral Degrees</p>
-												</li>
+
 												<li>
 													<i className="ri-check-fill"></i>
 													<p>Global Students</p>
@@ -81,7 +66,7 @@ function MainContent() {
 												<h1>
 													<span
 														className="odometer"
-														data-count="65"
+														data-count="10"
 													>
 														10
 													</span>
@@ -97,7 +82,7 @@ function MainContent() {
 												<h1>
 													<span
 														className="odometer"
-														data-count="30"
+														data-count="2"
 													>
 														2
 													</span>
@@ -116,7 +101,7 @@ function MainContent() {
 												<h1>
 													<span
 														className="odometer"
-														data-count="52"
+														data-count="8"
 													>
 														8
 													</span>
@@ -129,19 +114,18 @@ function MainContent() {
 										</div>
 									</div>
 								</div>
-								<a
-									href="campus-life.html"
-									className="default-btn btn"
-								>
-									Start your application
-									<i className="flaticon-next"></i>
-								</a>
+								<Link href="/applicationForm">
+									<a className="default-btn btn">
+										Start your application
+										<i className="flaticon-next"></i>
+									</a>
+								</Link>
 							</div>
 						</div>
 						<div className="col-lg-6">
 							<div className="estemate-form">
 								<h3>Take the first step</h3>
-								<form>
+								<form onSubmit={{}}>
 									<div className="row">
 										<div className="col-lg-12">
 											<div className="form-group">
@@ -210,8 +194,8 @@ function MainContent() {
 					<div className="section-title">
 						<h2>Academics</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipiscing
-							elit ut elit tellus luctus nec ullamcorper mattis
+							Our programmes cut across various levels tailored to
+							suit your need
 						</p>
 					</div>
 					<div className="row justify-content-center">
@@ -234,17 +218,16 @@ function MainContent() {
 										</a>
 									</div>
 									<p>
-										Lorem ipsum dolor sit amet consectetur
-										ad piscing elit ut elit tellus luctus
-										nec dolor sit amet consec teturul
+										Kickstart a life long academic journey
+										with a recognized and globally
+										acceptable institution
 									</p>
-									<a
-										href="academics-details.html"
-										className="read-more-btn white-color"
-									>
-										Undergraduate Education
-										<i className="flaticon-next"></i>
-									</a>
+									<Link href="/">
+										<a className="read-more-btn white-color">
+											Undergraduate Education
+											<i className="flaticon-next"></i>
+										</a>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -267,17 +250,16 @@ function MainContent() {
 										</a>
 									</div>
 									<p>
-										Lorem ipsum dolor sit amet consectetur
-										ad piscing elit ut elit tellus luctus
-										nec dolor sit amet consec teturul
+										Develop mastery in your chosen field of
+										expertise and take a deep dive into a
+										world of unlimited knowledge
 									</p>
-									<a
-										href="academics-details.html"
-										className="read-more-btn white-color"
-									>
-										Undergraduate Education
-										<i className="flaticon-next"></i>
-									</a>
+									<Link href="/">
+										<a className="read-more-btn white-color">
+											Graduate Education
+											<i className="flaticon-next"></i>
+										</a>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -300,17 +282,16 @@ function MainContent() {
 										</a>
 									</div>
 									<p>
-										Lorem ipsum dolor sit amet consectetur
-										ad piscing elit ut elit tellus luctus
-										nec dolor sit amet consec teturul
+										Learning never ends. Gain new skills
+										that bring productivity and satisfaction
+										in your everyday life.
 									</p>
-									<a
-										href="academics-details.html"
-										className="read-more-btn white-color"
-									>
-										Undergraduate Education
-										<i className="flaticon-next"></i>
-									</a>
+									<Link href="/">
+										<a className="read-more-btn white-color">
+											Professional Education
+											<i className="flaticon-next"></i>
+										</a>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -322,10 +303,10 @@ function MainContent() {
 				<div className="container">
 					<div className="section-title">
 						<h2>Our Popular Courses</h2>
-						<p>
+						{/*<p>
 							Lorem ipsum dolor sit amet consectetur adipiscing
 							elit ut elit tellus luctus nec ullamcorper mattis
-						</p>
+						</p>*/}
 					</div>
 					<CoursesSlider />
 				</div>
@@ -335,10 +316,10 @@ function MainContent() {
 				<div className="container">
 					<div className="section-title">
 						<h2>Campus Life</h2>
-						<p>
+						{/*<p>
 							Lorem ipsum dolor sit amet consectetur adipiscing
 							elit ut elit tellus luctus nec ullamcorper mattis
-						</p>
+						</p>*/}
 					</div>
 					<CampusSlider />
 				</div>
@@ -471,7 +452,7 @@ function MainContent() {
 				</div>
 			</div> */}
 
-			<div className="events-area ptb-100">
+			{/*<div className="events-area ptb-100">
 				<div className="container">
 					<div className="section-title">
 						<h2>Events</h2>
@@ -482,7 +463,7 @@ function MainContent() {
 					</div>
 					<EventsSlider />
 				</div>
-			</div>
+			</div>*/}
 
 			{/* <div className="podcasts-area pt-100 pb-70 bg-f4f6f9">
 				<div className="container">
@@ -782,7 +763,7 @@ function MainContent() {
 				</div>
 			</div> */}
 
-			<div className="lates-news-area ptb-100 bg-f4f6f9">
+			{/*<div className="lates-news-area ptb-100 bg-f4f6f9">
 				<div className="container">
 					<div className="section-title">
 						<h2>Latest News</h2>
@@ -793,7 +774,7 @@ function MainContent() {
 					</div>
 					<NewsSlider />
 				</div>
-			</div>
+			</div>*/}
 		</>
 	);
 }

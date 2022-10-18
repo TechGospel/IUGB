@@ -28,18 +28,14 @@ function Navbar() {
 											</a>
 										</li>*/}
 										<li>
-											<a href="campus-life.html">
-												Faculty & Staff
-											</a>
+											<a href="#">Faculty & Staff</a>
 										</li>
 										<li>
-											<a href="admission.html">
-												Visitors
-											</a>
+											<a href="#">Visitors</a>
 										</li>
 
 										<li>
-											<a href="alumni.html">Alumni</a>
+											<a href="#">Alumni</a>
 										</li>
 									</ul>
 								</div>
@@ -125,7 +121,7 @@ function Navbar() {
 										<ul className="dropdown-menu">
 											<li className="nav-item">
 												<a
-													href="courses.html"
+													href="#"
 													className="nav-link"
 												>
 													Our history & values
@@ -133,7 +129,7 @@ function Navbar() {
 											</li>
 											<li className="nav-item">
 												<a
-													href="courses.html"
+													href="#"
 													className="nav-link"
 												>
 													Principal officers
@@ -317,10 +313,7 @@ function Navbar() {
 									incididunt ut labore et dolore magna aliqua.
 								</p>
 								<div className="sidebar-btn">
-									<a
-										href="contact.html"
-										className="default-btn"
-									>
+									<a href="#" className="default-btn">
 										Let’s Talk
 									</a>
 								</div>

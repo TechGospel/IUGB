@@ -26,7 +26,7 @@ function CampusSlider() {
 		>
 			<div className="single-campus-card style2">
 				<div className="img">
-					<a href="campus-life.html">
+					<a href="#">
 						<img
 							src="assets/images/campus-life/campus-life-1.jpg"
 							alt="Image"
@@ -34,15 +34,14 @@ function CampusSlider() {
 					</a>
 				</div>
 				<div className="campus-content">
-					<span>01 Art & Culture</span>
-					<a href="campus-life.html">
-						<h3>Art, Exercise And Escapism In Nature</h3>
+					<a href="#">
+						<h3>Art And Escapism In Nature</h3>
 					</a>
 				</div>
 			</div>
 			<div className="single-campus-card style2">
 				<div className="img">
-					<a href="campus-life.html">
+					<a href="#">
 						<img
 							src="assets/images/campus-life/campus-life-2.jpg"
 							alt="Image"
@@ -50,15 +49,14 @@ function CampusSlider() {
 					</a>
 				</div>
 				<div className="campus-content">
-					<span>02 Athletics & Fitness</span>
-					<a href="campus-life.html">
-						<h3>Improve Athletic Performance Tips From Sanu</h3>
+					<a href="#">
+						<h3>Sporting and Athletic Activities</h3>
 					</a>
 				</div>
 			</div>
 			<div className="single-campus-card style2">
 				<div className="img">
-					<a href="campus-life.html">
+					<a href="#">
 						<img
 							src="assets/images/campus-life/campus-life-1.jpg"
 							alt="Image"
@@ -66,15 +64,14 @@ function CampusSlider() {
 					</a>
 				</div>
 				<div className="campus-content">
-					<span>01 Art & Culture</span>
-					<a href="campus-life.html">
-						<h3>Art, Exercise And Escapism In Nature</h3>
+					<a href="#">
+						<h3>Cultural Experiences</h3>
 					</a>
 				</div>
 			</div>
 			<div className="single-campus-card style2">
 				<div className="img">
-					<a href="campus-life.html">
+					<a href="#">
 						<img
 							src="assets/images/campus-life/campus-life-2.jpg"
 							alt="Image"
@@ -82,15 +79,14 @@ function CampusSlider() {
 					</a>
 				</div>
 				<div className="campus-content">
-					<span>02 Athletics & Fitness</span>
-					<a href="campus-life.html">
-						<h3>Improve Athletic Performance Tips From Sanu</h3>
+					<a href="#">
+						<h3>Food and Diet</h3>
 					</a>
 				</div>
 			</div>
 			<div className="single-campus-card style2">
 				<div className="img">
-					<a href="campus-life.html">
+					<a href="#">
 						<img
 							src="assets/images/campus-life/campus-life-1.jpg"
 							alt="Image"
@@ -98,9 +94,8 @@ function CampusSlider() {
 					</a>
 				</div>
 				<div className="campus-content">
-					<span>01 Art & Culture</span>
-					<a href="campus-life.html">
-						<h3>Art, Exercise And Escapism In Nature</h3>
+					<a href="#">
+						<h3>Student Support</h3>
 					</a>
 				</div>
 			</div>

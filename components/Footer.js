@@ -1,4 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
+import Link from 'next/link';
 import React from 'react';
 
 function Footer() {
@@ -9,13 +11,15 @@ function Footer() {
 					<div className="row">
 						<div className="col-lg-4 col-sm-6">
 							<div className="footer-logo-area">
-								<a href="index-2.html">
-									<img src="logo.png" alt="Image" />
-								</a>
-								<p>
-									IUGB University was established in 2002 for
-									the public benefit.
-								</p>
+								<Link href="/">
+									<a>
+										<img src="logo.png" alt="Image" />
+									</a>
+								</Link>
+
+								<h3 style={{ color: '#fff' }}>
+									l'Institut Universitaire le Grand Berger
+								</h3>
 								<div className="contact-list">
 									<ul>
 										<li>
@@ -47,30 +51,22 @@ function Footer() {
 								<div className="list">
 									<ul>
 										<li>
-											<a href="campus-life.html">
-												Accessibility
-											</a>
+											<a href="#">Accessibility</a>
 										</li>
 										<li>
-											<a href="campus-life.html">
-												Financial Aid
-											</a>
+											<a href="#">Financial Aid</a>
 										</li>
 
 										<li>
-											<a href="campus-life.html">
-												Housing
-											</a>
+											<a href="#">Housing</a>
 										</li>
 										<li>
-											<a href="campus-life.html">
+											<a href="#">
 												Information Technologies
 											</a>
 										</li>
 										<li>
-											<a href="campus-life.html">
-												Student Life
-											</a>
+											<a href="#">Student Life</a>
 										</li>
 									</ul>
 								</div>
@@ -82,34 +78,22 @@ function Footer() {
 								<div className="list">
 									<ul>
 										<li>
-											<a href="campus-life.html">
-												Academic
-											</a>
+											<a href="#">Academic</a>
 										</li>
 										<li>
-											<a href="campus-life.html">
+											<a href="#">
 												Planning & Administration
 											</a>
 										</li>
 										<li>
-											<a href="campus-life.html">
-												Campus Safety
-											</a>
+											<a href="#">Campus Safety</a>
+										</li>
+
+										<li>
+											<a href="#">Facility Services</a>
 										</li>
 										<li>
-											<a href="campus-life.html">
-												Office of the Chancellor
-											</a>
-										</li>
-										<li>
-											<a href="campus-life.html">
-												Facility Services
-											</a>
-										</li>
-										<li>
-											<a href="campus-life.html">
-												Human Resources
-											</a>
+											<a href="#">Human Resources</a>
 										</li>
 									</ul>
 								</div>
@@ -121,21 +105,17 @@ function Footer() {
 								<div className="list">
 									<ul>
 										<li>
-											<a href="academics.html">Courses</a>
+											<a href="#">Courses</a>
 										</li>
 
 										<li>
-											<a href="academics.html">Library</a>
+											<a href="#">Library</a>
 										</li>
 										<li>
-											<a href="academics.html">
-												Time Schedule
-											</a>
+											<a href="#">Time Schedule</a>
 										</li>
 										<li>
-											<a href="academics.html">
-												Apply For Admissions
-											</a>
+											<a href="#">Apply For Admissions</a>
 										</li>
 									</ul>
 								</div>

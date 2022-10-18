@@ -1584,9 +1584,6 @@ textarea {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	padding-top: 200px;
-	padding-bottom: 200px;
-	padding-left: 60px;
 }
 .slider-item.banner-bg-1 {
 	background-image: url(../images/banner/banner-img1.jpg);
@@ -1598,7 +1595,8 @@ textarea {
 	background-image: url(../images/banner/banner-img3.jpg);
 }
 .slider-item.banner-bg-4 {
-	background-image: url(../images/bg1.jpg);
+	background-image: url(../images/bg3.jpg);
+	object-fit: cover;
 }
 .slider-item.banner-bg-5 {
 	background-image: url(../images/bg2.jpg);
