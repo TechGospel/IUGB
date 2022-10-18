@@ -22,11 +22,7 @@ function _document() {
 				<link rel="stylesheet" href="assets/css/dark.css" />
 
 				<link rel="stylesheet" href="assets/css/responsive.css" />
-				<link
-					rel="icon"
-					type="image/png"
-					href="assets/images/favicon.png"
-				/>
+				<link rel="favicon" type="image/png" href="/logo.png" />
 			</Head>
 			<body>
 				<Main />

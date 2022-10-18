@@ -9,14 +9,14 @@ import { DataContext } from '../store/GlobalState';
 function MyAccount() {
 	const { state, dispatch } = useContext(DataContext);
 	const { auth } = state;
-	const { user } = auth;
 
 	const router = useRouter();
 
-	useEffect(() => {
+	/*useEffect(() => {
 		if (Object.keys(auth).length !== 0) router.push('/login');
 		console.log(auth);
-	}, [auth]);
+	}, [auth]);*/
+	if (!auth.user) return null;
 	return (
 		<>
 			<div className="page-banner-area bg-2">
