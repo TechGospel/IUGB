@@ -33,7 +33,7 @@ function _document() {
 
 				<script src="assets/js/jquery.meanmenu.js"></script>
 
-				<script src="assets/js/carousel-thumbs.min.js"></script>
+				{/*<script src="assets/js/carousel-thumbs.min.js"></script>*/}
 
 				<script src="assets/js/jquery.magnific-popup.js"></script>
 
