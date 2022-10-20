@@ -64,12 +64,7 @@ function MainContent() {
 										<div className="col-lg-4 col-4">
 											<div className="counter-card">
 												<h1>
-													<span
-														className="odometer"
-														data-count="10"
-													>
-														10
-													</span>
+													<span className="">10</span>
 													<span className="target">
 														+
 													</span>
@@ -80,12 +75,7 @@ function MainContent() {
 										<div className="col-lg-4 col-4">
 											<div className="counter-card">
 												<h1>
-													<span
-														className="odometer"
-														data-count="2"
-													>
-														2
-													</span>
+													<span className="">2</span>
 													<span className="target heading-color">
 														k
 													</span>
@@ -99,12 +89,7 @@ function MainContent() {
 										<div className="col-lg-4 col-4">
 											<div className="counter-card">
 												<h1>
-													<span
-														className="odometer"
-														data-count="8"
-													>
-														8
-													</span>
+													<span className="">8</span>
 													<span className="target">
 														+
 													</span>
