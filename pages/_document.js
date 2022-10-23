@@ -23,15 +23,13 @@ function _document() {
 
 				<link rel="stylesheet" href="assets/css/responsive.css" />
 				<link rel="favicon" type="image/png" href="/logo.png" />
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="script.js"></script>
+				<script src="assets/js/bootstrap.bundle.min.js"></script>
 			</Head>
 			<body>
 				<Main />
 				<NextScript />
-				<script src="assets/js/jquery.min.js"></script>
-
-				<script src="assets/js/bootstrap.bundle.min.js"></script>
-
-				<script src="assets/js/jquery.meanmenu.js"></script>
 
 				{/*<script src="assets/js/carousel-thumbs.min.js"></script>*/}
 

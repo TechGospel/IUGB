@@ -2,8 +2,12 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function Navbar() {
+function Header() {
 	return (
 		<div>
 			<div className="top-header-area">
@@ -45,6 +49,87 @@ function Navbar() {
 				</div>
 			</div>
 
+			<Navbar collapseOnSelect expand="lg" bg="light" fixedTop="true">
+				<Container>
+					<Navbar.Brand href="#home">
+						<Link href="/">
+							<a className="d-flex">
+								<img
+									src="/logo.png"
+									className="main-logo"
+									alt="logo"
+								/>
+							</a>
+						</Link>
+					</Navbar.Brand>
+					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+					<Navbar.Collapse id="responsive-navbar-nav">
+						<Nav className="me-auto"></Nav>
+						<Nav>
+							<Nav.Link href="#features">Home</Nav.Link>
+							<NavDropdown
+								title="About us"
+								id="collasible-nav-dropdown"
+							>
+								<NavDropdown.Item href="#action/3.1">
+									Our History & Values
+								</NavDropdown.Item>
+								<NavDropdown.Item href="#action/3.2">
+									Principal Officers
+								</NavDropdown.Item>
+							</NavDropdown>
+							<NavDropdown
+								title="Academics"
+								id="collasible-nav-dropdown"
+							>
+								<NavDropdown.Item href="#action/3.1">
+									Accredited Courses & Programmes
+								</NavDropdown.Item>
+								<NavDropdown.Item href="#action/3.2">
+									Affiliated Courses & Programmes
+								</NavDropdown.Item>
+							</NavDropdown>
+							<NavDropdown
+								title="Admission"
+								id="collasible-nav-dropdown"
+							>
+								<NavDropdown.Item href="#action/3.1">
+									How To Apply
+								</NavDropdown.Item>
+								<NavDropdown.Item href="#action/3.2">
+									Application Form
+								</NavDropdown.Item>
+							</NavDropdown>
+
+							<NavDropdown
+								title="Registry"
+								id="collasible-nav-dropdown"
+							>
+								<NavDropdown.Item href="#action/3.1">
+									Undergraduate Programmes
+								</NavDropdown.Item>
+								<NavDropdown.Item href="#action/3.2">
+									Postgraduate Programmes
+								</NavDropdown.Item>
+							</NavDropdown>
+							<Nav.Link href="#deets">Finance</Nav.Link>
+
+							<NavDropdown
+								title="Portal"
+								id="collasible-nav-dropdown"
+							>
+								<NavDropdown.Item href="#action/3.1">
+									Portal Registration
+								</NavDropdown.Item>
+								<NavDropdown.Item href="#action/3.2">
+									Portal Login
+								</NavDropdown.Item>
+							</NavDropdown>
+						</Nav>
+					</Navbar.Collapse>
+				</Container>
+			</Navbar>
+			{/*
 			<div className="navbar-area nav-bg-2">
 				<div className="mobile-responsive-nav">
 					<div className="container">
@@ -291,16 +376,16 @@ function Navbar() {
 						<div className="modal-body">
 							<Link href="/">
 								<a>
-									{/*<img
-									src="assets/images/logo.png"
-									className="main-logo"
-									alt="logo"
-								/>
-								<img
-									src="assets/images/white-logo.png"
-									className="white-logo"
-									alt="logo"
-								/>*/}
+									<img
+										src="logo.png"
+										className="main-logo"
+										alt="logo"
+									/>
+									<img
+										src="logo.png"
+										className="white-logo"
+										alt="logo"
+									/>
 									<h2>IUGB</h2>
 								</a>
 							</Link>
@@ -462,9 +547,9 @@ function Navbar() {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>*/}
 		</div>
 	);
 }
 
-export default Navbar;
+export default Header;

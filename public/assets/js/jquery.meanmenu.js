@@ -1,5 +1,5 @@
 !(function ($) {
-	'use strict';
+	('use strict');
 	$.fn.meanmenu = function (e) {
 		var n = {
 			meanMenuTarget: jQuery(this),
@@ -21,8 +21,10 @@
 			meanDisplay: 'block',
 			removeElements: '',
 		};
+
 		e = $.extend(n, e);
 		var a = window.innerWidth || document.documentElement.clientWidth;
+
 		return this.each(function () {
 			var n = e.meanMenuTarget,
 				t = e.meanMenuContainer,
@@ -44,6 +46,7 @@
 				g = e.meanDisplay,
 				p = e.removeElements,
 				C = !1;
+
 			(navigator.userAgent.match(/iPhone/i) ||
 				navigator.userAgent.match(/iPod/i) ||
 				navigator.userAgent.match(/iPad/i) ||
@@ -54,6 +57,7 @@
 				(navigator.userAgent.match(/MSIE 8/i) ||
 					navigator.userAgent.match(/MSIE 7/i)) &&
 					jQuery('html').css('overflow-y', 'scroll');
+
 			var w = '',
 				x = function () {
 					if ('center' === u) {
@@ -61,6 +65,7 @@
 								window.innerWidth ||
 								document.documentElement.clientWidth,
 							n = e / 2 - 22 + 'px';
+
 						(w = 'left:' + n + ';right:auto;'),
 							C
 								? jQuery('.meanmenu-reveal').animate({
