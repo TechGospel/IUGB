@@ -49,7 +49,7 @@ function Header() {
 				</div>
 			</div>
 
-			<Navbar collapseOnSelect expand="lg" bg="light" fixedTop="true">
+			<Navbar collapseOnSelect expand="lg" fixedTop="true">
 				<Container>
 					<Navbar.Brand href="#home">
 						<Link href="/">
@@ -66,37 +66,60 @@ function Header() {
 					<Navbar.Collapse id="responsive-navbar-nav">
 						<Nav className="me-auto"></Nav>
 						<Nav>
-							<Nav.Link href="#features">Home</Nav.Link>
+							<Nav.Link href="#features" className="text-dark">
+								Home
+							</Nav.Link>
 							<NavDropdown
 								title="About us"
 								id="collasible-nav-dropdown"
+								className="text-dark"
 							>
-								<NavDropdown.Item href="#action/3.1">
+								<NavDropdown.Item
+									href="#action/3.1"
+									className="text-dark"
+								>
 									Our History & Values
 								</NavDropdown.Item>
-								<NavDropdown.Item href="#action/3.2">
+								<NavDropdown.Item
+									href="#action/3.2"
+									className="text-dark"
+								>
 									Principal Officers
 								</NavDropdown.Item>
 							</NavDropdown>
 							<NavDropdown
 								title="Academics"
 								id="collasible-nav-dropdown"
+								className="text-dark"
 							>
-								<NavDropdown.Item href="#action/3.1">
+								<NavDropdown.Item
+									href="#action/3.1"
+									className="text-dark"
+								>
 									Accredited Courses & Programmes
 								</NavDropdown.Item>
-								<NavDropdown.Item href="#action/3.2">
+								<NavDropdown.Item
+									href="#action/3.2"
+									className="text-dark"
+								>
 									Affiliated Courses & Programmes
 								</NavDropdown.Item>
 							</NavDropdown>
 							<NavDropdown
 								title="Admission"
 								id="collasible-nav-dropdown"
+								className="text-dark"
 							>
-								<NavDropdown.Item href="#action/3.1">
+								<NavDropdown.Item
+									href="#action/3.1"
+									className="text-dark"
+								>
 									How To Apply
 								</NavDropdown.Item>
-								<NavDropdown.Item href="#action/3.2">
+								<NavDropdown.Item
+									href="#action/3.2"
+									className="text-dark"
+								>
 									Application Form
 								</NavDropdown.Item>
 							</NavDropdown>
@@ -104,24 +127,40 @@ function Header() {
 							<NavDropdown
 								title="Registry"
 								id="collasible-nav-dropdown"
+								className="text-dark"
 							>
-								<NavDropdown.Item href="#action/3.1">
+								<NavDropdown.Item
+									href="#action/3.1"
+									className="text-dark"
+								>
 									Undergraduate Programmes
 								</NavDropdown.Item>
-								<NavDropdown.Item href="#action/3.2">
+								<NavDropdown.Item
+									href="#action/3.2"
+									className="text-dark"
+								>
 									Postgraduate Programmes
 								</NavDropdown.Item>
 							</NavDropdown>
-							<Nav.Link href="#deets">Finance</Nav.Link>
+							<Nav.Link href="#deets" className="text-dark">
+								Finance
+							</Nav.Link>
 
 							<NavDropdown
 								title="Portal"
 								id="collasible-nav-dropdown"
+								className="text-dark"
 							>
-								<NavDropdown.Item href="#action/3.1">
+								<NavDropdown.Item
+									href="#action/3.1"
+									className="text-dark"
+								>
 									Portal Registration
 								</NavDropdown.Item>
-								<NavDropdown.Item href="#action/3.2">
+								<NavDropdown.Item
+									href="#action/3.2"
+									className="text-dark"
+								>
 									Portal Login
 								</NavDropdown.Item>
 							</NavDropdown>
