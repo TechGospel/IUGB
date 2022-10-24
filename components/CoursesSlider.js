@@ -43,7 +43,7 @@ function CoursesSlider() {
 				<div className="courses-img">
 					<a href="#">
 						<img
-							src="assets/images/courses/courses-2.jpg"
+							src="assets/images/courses/bizadmin.jpg"
 							alt="Image"
 						/>
 					</a>
@@ -58,10 +58,7 @@ function CoursesSlider() {
 			<div className="single-courses-card style2">
 				<div className="courses-img">
 					<a href="#">
-						<img
-							src="assets/images/courses/courses-3.jpg"
-							alt="Image"
-						/>
+						<img src="assets/images/courses/hr.jpg" alt="Image" />
 					</a>
 				</div>
 				<div className="courses-content">
@@ -74,10 +71,7 @@ function CoursesSlider() {
 			<div className="single-courses-card style2">
 				<div className="courses-img">
 					<a href="#">
-						<img
-							src="assets/images/courses/courses-1.jpg"
-							alt="Image"
-						/>
+						<img src="assets/images/courses/acct.jpg" alt="Image" />
 					</a>
 				</div>
 				<div className="courses-content">
@@ -91,7 +85,7 @@ function CoursesSlider() {
 				<div className="courses-img">
 					<a href="#">
 						<img
-							src="assets/images/courses/courses-2.jpg"
+							src="assets/images/courses/psychology.webp"
 							alt="Image"
 						/>
 					</a>
@@ -107,7 +101,7 @@ function CoursesSlider() {
 				<div className="courses-img">
 					<a href="#">
 						<img
-							src="assets/images/courses/courses-3.jpg"
+							src="assets/images/courses/international-relations.jpg"
 							alt="Image"
 						/>
 					</a>
@@ -123,7 +117,7 @@ function CoursesSlider() {
 				<div className="courses-img">
 					<a href="#">
 						<img
-							src="assets/images/courses/courses-1.jpg"
+							src="assets/images/courses/economics.jpg"
 							alt="Image"
 						/>
 					</a>

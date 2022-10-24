@@ -73,7 +73,7 @@ function CampusSlider() {
 				<div className="img">
 					<a href="#">
 						<img
-							src="assets/images/campus-life/campus-life-2.jpg"
+							src="assets/images/campus-life/food-diet.webp"
 							alt="Image"
 						/>
 					</a>
@@ -88,7 +88,7 @@ function CampusSlider() {
 				<div className="img">
 					<a href="#">
 						<img
-							src="assets/images/campus-life/campus-life-1.jpg"
+							src="assets/images/campus-life/stdent.png"
 							alt="Image"
 						/>
 					</a>
