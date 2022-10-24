@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { createContext, useReducer, useEffect } from 'react';
 import reducers from './Reducers';
 import { getData } from '../utils/fetchData';
@@ -46,7 +47,7 @@ export const DataProvider = ({ children }) => {
 
 	useEffect(() => {
 		if (auth.token) {
-			getData('order', auth.token).then((res) => {
+			/*getData('order', auth.token).then((res) => {
 				if (res.err)
 					return dispatch({
 						type: 'NOTIFY',
@@ -54,7 +55,7 @@ export const DataProvider = ({ children }) => {
 					});
 
 				dispatch({ type: 'ADD_ORDERS', payload: res.orders });
-			});
+			});*/
 
 			if (auth.user.role === 'admin') {
 				getData('user', auth.token).then((res) => {
