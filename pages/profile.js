@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import Link from 'next/link';
 import React, { useContext, useEffect, useState } from 'react';
 import { DataContext } from '../store/GlobalState';
@@ -40,7 +41,7 @@ function Profile() {
 		/**/
 		console.log(auth.user);
 		console.log(userData);
-	}, [auth.user, userData]);
+	}, [auth.user]);
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
