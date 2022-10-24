@@ -6,7 +6,7 @@ import { postData } from '../utils/fetchData';
 function CreateProgramme() {
 	const initialState = {
 		name: '',
-		category,
+		category: '',
 	};
 	const [programmeData, setProgrammeData] = useState(initialState);
 	const { name, category } = programmeData;

@@ -40,7 +40,7 @@ function Profile() {
 		/**/
 		console.log(auth.user);
 		console.log(userData);
-	}, [auth.user]);
+	}, [auth.user, userData]);
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
