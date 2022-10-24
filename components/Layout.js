@@ -2,7 +2,7 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
 import Footer from './Footer';
-import Header from './Navbar';
+import Header from './Header';
 import Head from 'next/head';
 
 function Layout({ children }) {

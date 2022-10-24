@@ -32,18 +32,39 @@ const getUsers = async (req, res) => {
 const uploadInfor = async (req, res) => {
 	try {
 		const result = await auth(req, res);
-		const { name, avatar } = req.body;
+		const {
+			firstname,
+			lastname,
+			gender,
+			phoneNo,
+			country,
+			//state,
+			nationality,
+		} = req.body;
 
 		const newUser = await Users.findOneAndUpdate(
 			{ _id: result.id },
-			{ name, avatar }
+			{
+				firstname,
+				lastname,
+				gender,
+				phoneNo,
+				country,
+				//state,
+				nationality,
+			}
 		);
 
 		res.json({
 			msg: 'Update Success!',
 			user: {
-				name,
-				avatar,
+				firstname,
+				lastname,
+				gender,
+				phoneNo,
+				country,
+				//state,
+				nationality,
 				email: newUser.email,
 				role: newUser.role,
 			},

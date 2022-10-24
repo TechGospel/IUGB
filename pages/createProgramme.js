@@ -28,7 +28,7 @@ function CreateProgramme() {
 
     dispatch({ type: 'NOTIFY', payload: { loading: true } });*/
 
-		const res = await postData('programmes', programmeData);
+		const res = await postData('programmes', programmeData, auth.token);
 
 		if (res.err)
 			return dispatch({ type: 'NOTIFY', payload: { error: res.err } });

@@ -29,7 +29,7 @@ function CreateCourse() {
 
     dispatch({ type: 'NOTIFY', payload: { loading: true } });*/
 
-		const res = await postData('course', courseData);
+		const res = await postData('course', courseData, auth.token);
 
 		if (res.err)
 			return dispatch({ type: 'NOTIFY', payload: { error: res.err } });
