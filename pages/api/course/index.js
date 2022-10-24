@@ -24,16 +24,15 @@ const createCourse = async (req, res) => {
 				.status(400)
 				.json({ err: 'Authentication is not valid.' });
 
-		const { courseID, courseTitle, courseUnit, lecturerInCharge } =
-			req.body;
-		if (!courseID || !courseTitle || !courseUnit || !lecturerInCharge)
+		const { courseCode, courseTitle, courseUnit } = req.body;
+		if (!courseCode || !courseTitle || !courseUnit)
 			return res.status(400).json({ err: 'Please fill all fields.' });
 
 		const newCourse = new Courses({
-			courseID,
+			courseCode,
 			courseTitle,
 			courseUnit,
-			lecturerInCharge,
+			//lecturerInCharge,
 		});
 
 		await newCourse.save();

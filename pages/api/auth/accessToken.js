@@ -25,7 +25,9 @@ export default async (req, res) => {
 		res.json({
 			access_token,
 			user: {
-				name: user.name,
+				firstname: user.firstname,
+				lastname: user.lastname,
+				phoneNo: user.phoneNo,
 				email: user.email,
 				role: user.role,
 				avatar: user.avatar,

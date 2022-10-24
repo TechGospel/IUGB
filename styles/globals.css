@@ -29,7 +29,6 @@ a {
 	border-radius: 0;
 }
 .list-group-item:last-child {
-	border: none;
 }
 .badge {
 	display: inline-block;

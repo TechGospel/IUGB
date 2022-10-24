@@ -5,15 +5,46 @@ import React from 'react';
 import { useState, useContext, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { DataContext } from '../store/GlobalState';
+import { getData } from '../utils/fetchData';
+import Link from 'next/link';
 
 function MyAccount() {
+	const initialState = {
+		email: '',
+		firstname: '',
+		lastname: '',
+		phoneNo: '',
+	};
+	const [data, setData] = useState(initialState);
+
+	const { email, firstname, lastname, phoneNo } = data;
+	const [courses, setCourses] = useState([]);
+
 	const { state, dispatch } = useContext(DataContext);
 	const { auth } = state;
 
-	const router = useRouter();
+	useEffect(() => {
+		if (auth.user) setData(auth.user);
+		/**/
+		console.log(auth.user);
+		console.log(data);
+	}, [auth.user]);
+
+	useEffect(() => {
+		const fetchCourses = async () => {
+			const result = await getData('course');
+			console.log(result.courses);
+			setCourses(result.courses);
+		};
+
+		fetchCourses();
+		console.log(courses);
+	}, []);
+
+	//const router = useRouter();
 
 	/*useEffect(() => {
-		if (Object.keys(auth).length !== 0) router.push('/login');
+		if (Object.keys(auth).length !== 0) 
 		console.log(auth);
 	}, [auth]);*/
 	if (!auth.user) return null;
@@ -40,19 +71,26 @@ function MyAccount() {
 									<h2>Personal information</h2>
 								</div>
 
-								<ul className="list-group">
-									<li className="list-group-item">Name:</li>
+								<ul className="list-group mb-3">
+									<li className="list-group-item">
+										Name: {`${firstname}  ${lastname}`}
+									</li>
 									<li className="list-group-item">Gender:</li>
 									<li className="list-group-item">
 										Nationality:
 									</li>
 									<li className="list-group-item">
-										Email address:
+										Email address: {email}
 									</li>
 									<li className="list-group-item">
-										Contact no:
+										Contact no: {phoneNo}
 									</li>
 								</ul>
+								<Link href="/profile">
+									<a className="btn btn-primary">
+										Update Profile
+									</a>
+								</Link>
 							</div>
 						</div>
 						<div className="acct-panel course-list mb-5">
@@ -62,21 +100,23 @@ function MyAccount() {
 								</div>
 
 								<ul className="list-group">
-									<li className="list-group-item">
-										Cras justo odio
-									</li>
-									<li className="list-group-item">
-										Dapibus ac facilisis in
-									</li>
-									<li className="list-group-item">
-										Morbi leo risus
-									</li>
-									<li className="list-group-item">
-										Porta ac consectetur ac
-									</li>
-									<li className="list-group-item">
-										Vestibulum at eros
-									</li>
+									{courses.length === 0 ? (
+										<li>
+											<h2>
+												You have not registered for any
+												course yet
+											</h2>
+										</li>
+									) : (
+										courses.map((course) => (
+											<li
+												className="list-group-item"
+												key={course._id}
+											>
+												{course.courseTitle}
+											</li>
+										))
+									)}
 								</ul>
 							</div>
 						</div>
@@ -88,7 +128,7 @@ function MyAccount() {
 									<h2>Academic profile</h2>
 								</div>
 
-								<ul className="list-group">
+								<ul className="list-group mb-3">
 									<li className="list-group-item">
 										Department:
 									</li>
@@ -97,12 +137,17 @@ function MyAccount() {
 									</li>
 									<li className="list-group-item">Level:</li>
 									<li className="list-group-item">
-										Programme status: In progress
+										Programme status:
 									</li>
 									<li className="list-group-item">
-										Fees status: Completely paid
+										Fees status:
 									</li>
 								</ul>
+								<Link href="/profile">
+									<a className="btn btn-primary">
+										Update Profile
+									</a>
+								</Link>
 							</div>
 						</div>
 						<div className="acct-panel course-list mb-5">

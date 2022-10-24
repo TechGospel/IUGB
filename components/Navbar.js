@@ -73,15 +73,16 @@ function Header() {
 								title="About us"
 								id="collasible-nav-dropdown"
 								className="text-dark"
+								style={{ color: '000' }}
 							>
 								<NavDropdown.Item
-									href="#action/3.1"
+									href="/About"
 									className="text-dark"
 								>
 									Our History & Values
 								</NavDropdown.Item>
 								<NavDropdown.Item
-									href="#action/3.2"
+									href="#"
 									className="text-dark"
 								>
 									Principal Officers
@@ -93,13 +94,13 @@ function Header() {
 								className="text-dark"
 							>
 								<NavDropdown.Item
-									href="#action/3.1"
+									href="/programmes"
 									className="text-dark"
 								>
 									Accredited Courses & Programmes
 								</NavDropdown.Item>
 								<NavDropdown.Item
-									href="#action/3.2"
+									href="/affiliatedProgrammes"
 									className="text-dark"
 								>
 									Affiliated Courses & Programmes
@@ -111,13 +112,13 @@ function Header() {
 								className="text-dark"
 							>
 								<NavDropdown.Item
-									href="#action/3.1"
+									href="/admission"
 									className="text-dark"
 								>
 									How To Apply
 								</NavDropdown.Item>
 								<NavDropdown.Item
-									href="#action/3.2"
+									href="/applicationForm"
 									className="text-dark"
 								>
 									Application Form
@@ -130,19 +131,19 @@ function Header() {
 								className="text-dark"
 							>
 								<NavDropdown.Item
-									href="#action/3.1"
+									href="/#"
 									className="text-dark"
 								>
 									Undergraduate Programmes
 								</NavDropdown.Item>
 								<NavDropdown.Item
-									href="#action/3.2"
+									href="#"
 									className="text-dark"
 								>
 									Postgraduate Programmes
 								</NavDropdown.Item>
 							</NavDropdown>
-							<Nav.Link href="#deets" className="text-dark">
+							<Nav.Link href="#" className="text-dark">
 								Finance
 							</Nav.Link>
 
@@ -152,13 +153,13 @@ function Header() {
 								className="text-dark"
 							>
 								<NavDropdown.Item
-									href="#action/3.1"
+									href="/register"
 									className="text-dark"
 								>
 									Portal Registration
 								</NavDropdown.Item>
 								<NavDropdown.Item
-									href="#action/3.2"
+									href="/login"
 									className="text-dark"
 								>
 									Portal Login

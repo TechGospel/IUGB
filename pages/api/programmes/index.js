@@ -24,11 +24,11 @@ const createProgramme = async (req, res) => {
 				.status(400)
 				.json({ err: 'Authentication is not valid.' });
 
-		const { name } = req.body;
-		if (!name)
+		const { name, category } = req.body;
+		if (!name || !category)
 			return res.status(400).json({ err: 'Name can not be left blank.' });
 
-		const newprogramme = new programme({ name });
+		const newprogramme = new programme({ name, category });
 
 		await newprogramme.save();
 		res.json({

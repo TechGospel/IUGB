@@ -29,7 +29,7 @@ function OwlCarousel() {
 								upskiling.
 							</p>
 							<Link href="/programmes">
-								<a className="default-btn btn">
+								<a className="default-btn btn text-light">
 									Start your Journey{' '}
 									<i className="flaticon-next"></i>
 								</a>
@@ -53,7 +53,7 @@ function OwlCarousel() {
 								modern technological devices.
 							</p>
 							<Link href="/programmes">
-								<a className="default-btn btn">
+								<a className="default-btn btn text-light">
 									Start your Journey{' '}
 									<i className="flaticon-next"></i>
 								</a>

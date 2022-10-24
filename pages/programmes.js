@@ -373,22 +373,6 @@ function programmes() {
 						</div>
 						<div className="col-lg-3">
 							<div className="acdemics-right-content">
-								<div className="serch-content">
-									<h3>Search</h3>
-									<div className="form-group">
-										<input
-											type="text"
-											className="form-control"
-											placeholder="Find Your Course"
-										/>
-										<button
-											type="submit"
-											className="src-btn"
-										>
-											<i className="flaticon-search"></i>
-										</button>
-									</div>
-								</div>
 								<div className="category-content">
 									<h3>Select a Category</h3>
 									<select
@@ -398,45 +382,18 @@ function programmes() {
 										<option selected>
 											Select a Category
 										</option>
-										<option value="1">Business</option>
-										<option value="2">Fashion</option>
-										<option value="3">writing</option>
-										<option value="3">Development</option>
-										<option value="3">Marketing</option>
+										<option value="1">ICT</option>
+										<option value="2">
+											Business & Finance
+										</option>
+										<option value="3">Law</option>
+										<option value="3">Health</option>
+										<option value="3">
+											Engineering & Safety
+										</option>
 									</select>
 								</div>
-								<div className="location-type">
-									<h3>Location Type</h3>
-									<div className="form-check">
-										<input
-											className="form-check-input"
-											type="checkbox"
-											value=""
-											id="flexCheckDefault"
-										/>
-										<label
-											className="form-check-label"
-											for="flexCheckDefault"
-										>
-											On Campus
-										</label>
-									</div>
-									<div className="form-check">
-										<input
-											className="form-check-input"
-											type="checkbox"
-											value=""
-											id="flexCheckChecked"
-											checked
-										/>
-										<label
-											className="form-check-label"
-											for="flexCheckChecked"
-										>
-											Online
-										</label>
-									</div>
-								</div>
+
 								<div className="program-level">
 									<h3>Program Level</h3>
 									<div className="form-check">

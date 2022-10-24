@@ -11,7 +11,8 @@ module.exports = {
 		return config;
 	},
 	env: {
-		BASE_URL: 'http://localhost:3000', //shop.etranzact.co.uk/
+		LOCAL_URL: 'http://localhost:3000',
+		BASE_URL: 'https://iugb.netlify.app/',
 		MONGODB_URL:
 			'mongodb+srv://IUGB:IUGBPASS@cluster0.ho3oo.mongodb.net/?retryWrites=true&w=majority',
 		ACCESS_TOKEN_SECRET: '0,j,WHtca]tU`)?{8_R9vf<(8W7$',
