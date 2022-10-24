@@ -30,7 +30,7 @@ function Register() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		console.log(firstname, lastname, email, phoneNo, password);
-		const errMsg = valid(firstname, lastname, email);
+		const errMsg = valid(firstname, lastname, email, password, cf_password);
 		if (errMsg)
 			return dispatch({ type: 'NOTIFY', payload: { error: errMsg } });
 
