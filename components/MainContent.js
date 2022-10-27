@@ -23,11 +23,12 @@ function MainContent() {
 								<div className="campus-title">
 									<h2>Who we are</h2>
 									<p>
-										IUGB is attracting the best expert
-										thinkers, unusual managers, and
-										hyper-resourceful technocrats in all
-										fields of human endeavours who are
-										committed to pioneering excellence.
+										At IUGB, We focus on the total
+										transformation of human capacity using
+										qualified team of staff and modern
+										technological devices. We are keen on
+										meeting students expectations and
+										aspirations on record time.
 									</p>
 								</div>
 								<div className="list">

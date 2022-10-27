@@ -125,7 +125,7 @@ function Header() {
 								style={{ color: '000' }}
 							>
 								<NavDropdown.Item
-									href="/About"
+									href="/about"
 									className="text-dark"
 								>
 									Our History & Values

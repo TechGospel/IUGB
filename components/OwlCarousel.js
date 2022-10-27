@@ -20,8 +20,8 @@ function OwlCarousel() {
 					<div className="container-fluid">
 						<div className="slider-content">
 							<h1>
-								Welcome to l'Institut Universitaire le Grand
-								Berger
+								Welcome to Great Shepherd University (l'Institut
+								Universitaire le Grand Berger)
 							</h1>
 							<p>
 								We are inspiring a better future through
@@ -44,8 +44,8 @@ function OwlCarousel() {
 					<div className="container-fluid">
 						<div className="slider-content">
 							<h1>
-								Welcome to l'Institut Universitaire le Grand
-								Berger
+								Welcome to Great Shepherd University (l'Institut
+								Universitaire le Grand Berger)
 							</h1>
 							<p>
 								We focus on the total transformation of human

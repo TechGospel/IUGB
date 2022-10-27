@@ -4723,6 +4723,28 @@ textarea {
 .footer-widjet .list ul li a:hover {
 	color: #e32845;
 }
+.about-area {
+	background-color: #111d5e;
+	position: relative;
+	z-index: 1;
+}
+.about-area .shape {
+	position: absolute;
+	top: 50px;
+	margin: auto;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
 .copyright-area {
 	background-color: #1f2c75;
 }
