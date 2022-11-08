@@ -38,10 +38,7 @@ function affiliatedProgrammes() {
 													Management
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -62,10 +59,7 @@ function affiliatedProgrammes() {
 													Management
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -83,10 +77,7 @@ function affiliatedProgrammes() {
 											<a href="academics-details.html">
 												<h3>Natural Science</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -104,10 +95,7 @@ function affiliatedProgrammes() {
 											<a href="academics-details.html">
 												<h3>Marine Engineering</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -125,10 +113,7 @@ function affiliatedProgrammes() {
 											<a href="academics-details.html">
 												<h3>Criminology Studies</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -149,10 +134,7 @@ function affiliatedProgrammes() {
 													in Education Management
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -170,10 +152,7 @@ function affiliatedProgrammes() {
 											<a href="academics-details.html">
 												<h3>Public Health</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -191,10 +170,7 @@ function affiliatedProgrammes() {
 											<a href="academics-details.html">
 												<h3>Nursing</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -215,10 +191,7 @@ function affiliatedProgrammes() {
 													Psychology (M.Sc.)
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -239,10 +212,7 @@ function affiliatedProgrammes() {
 													Psychology (M.Sc.)
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -263,10 +233,7 @@ function affiliatedProgrammes() {
 													Psychology (M.Sc.){' '}
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"

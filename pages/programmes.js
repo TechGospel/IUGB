@@ -39,10 +39,7 @@ function programmes() {
 													Translation)
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -60,10 +57,7 @@ function programmes() {
 											<a href="academics-details.html">
 												<h3>Business Administration</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -84,10 +78,7 @@ function programmes() {
 													Political Science
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -105,10 +96,7 @@ function programmes() {
 											<a href="academics-details.html">
 												<h3>Mass Communication</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -128,10 +116,7 @@ function programmes() {
 													Human Resource Management
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -152,10 +137,7 @@ function programmes() {
 													Management
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -173,10 +155,7 @@ function programmes() {
 											<a href="academics-details.html">
 												<h3>Accountancy</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -194,10 +173,7 @@ function programmes() {
 											<a href="academics-details.html">
 												<h3>Computer Science</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -220,10 +196,7 @@ function programmes() {
 													Year
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -244,10 +217,7 @@ function programmes() {
 													Finance
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -265,10 +235,7 @@ function programmes() {
 											<a href="academics-details.html">
 												<h3>Psychology</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -286,10 +253,7 @@ function programmes() {
 											<a href="academics-details.html">
 												<h3>BSc Conversion</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -307,10 +271,7 @@ function programmes() {
 											<a href="academics-details.html">
 												<h3>HND Conversion</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -331,10 +292,7 @@ function programmes() {
 													Political Science
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -355,10 +313,7 @@ function programmes() {
 													Master Level
 												</h3>
 											</a>
-											<p>
-												Lorem ipsum dolor sit amet
-												ctetur adipiscing elit
-											</p>
+
 											<a
 												href="academics-details.html"
 												className="read-more-btn"
@@ -416,7 +371,6 @@ function programmes() {
 											type="checkbox"
 											value=""
 											id="flexCheckChecked1"
-											checked
 										/>
 										<label
 											className="form-check-label"
