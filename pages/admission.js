@@ -1,4 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
+import Link from 'next/link';
 import React from 'react';
 
 function admission() {
@@ -26,14 +28,16 @@ function admission() {
 							<div className="how-to-apply">
 								<h2>Detail About How To Apply</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit, sed do eius mod tem incid
-									idunt ut labore et dol magna aliqua. Ut enim
-									ad minim ven iam quis nostrud xerci tation
-									Lorem ipsum dolor sit amet, conse ctetur
-									adipiscing elit, sed do eius mod tem incid
-									idunt ut labore et dol magna aliqua. Ut enim
-									ad minim ven iam quis nostrud xerci tation
+									When you apply to the Great Shepherd
+									University, we look beyond your predicted
+									(or confirmed) grades to understand your
+									background, motivation and aspirations for
+									pursuing a higher education programme with
+									us. Candidates should not be above
+									nineteen(19) years of age andshould be
+									willing and ready to study both french and
+									English languages and pass basic
+									examinations(Internal and external )
 								</p>
 								<div className="apply-list">
 									<div className="row">
@@ -65,7 +69,7 @@ function admission() {
 												</li>
 												<li>
 													<i className="ri-checkbox-circle-line"></i>
-													Last Decision
+													Get Admission Decision
 												</li>
 											</ul>
 										</div>
@@ -74,20 +78,24 @@ function admission() {
 								<div className="submit">
 									<h3>Submit Your Transcripts</h3>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit, sed do eius mod tem
-										incid idunt ut labore et dol magna
-										aliqua. Ut enim ad minim ven iam quis
-										nostrud xerci tation Lorem ipsum dolor
-										sit amet, conse ctetur adipiscing elit,
-										sed do eius mod tem incid idunt ut
+										If you have already achieved O'Level
+										results (WAEC,NECO) with five credits
+										including Mathematics and English
+										Language in a single sitting and you are
+										now considering Higher Education study,
+										get in touch with our Admissions team
+										and see what courses could be available
+										to you
 									</p>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit, sed do eius mod tem
-										incid idunt ut labore et dol magna
-										aliqua. Ut enim ad minim ven iam quis
-										nostrud xerci tation Lorem ipsum
+										Any applicant who is not successful can
+										ask for feedback on the reason for the
+										decision. For most applicants, this will
+										be given in their decision letter.
+										Requests for feedback should be made in
+										writing by letter or email within 30
+										days of the notification of the
+										decision.
 									</p>
 									<a href="#" className="default-btn btn">
 										Submit Your Transcripts
@@ -97,25 +105,20 @@ function admission() {
 								<div className="financial">
 									<h3>Financial Aid</h3>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit, sed do eius mod tem
-										incid idunt ut labore et dol magna
-										aliqua. Ut enim ad minim ven iam quis
-										nostrud xerci tation Lorem ipsum dolor
-										sit amet, conse ctetur adipiscing elit,
-										sed do eius mod tem incid idunt ut
+										Funding is available to help with tution
+										fees to students who qualify. Kindly
+										reach out to our admission office to get
+										more information on available
+										scholarships and the eligibility
+										requirements.
 									</p>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit, sed do eius mod tem
-										incid idunt ut labore et dol magna
-										aliqua. Ut enim ad minim ven iam quis
-										nostrud xerci tation Lorem ipsum
-									</p>
-									<a href="#" className="default-btn btn">
-										Apply For Financial Aid
-										<i className="flaticon-next"></i>
-									</a>
+
+									<Link href="/scholarships">
+										<a className="default-btn btn">
+											Apply For Financial Aid
+											<i className="flaticon-next"></i>
+										</a>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -125,21 +128,15 @@ function admission() {
 								<div className="list">
 									<ul>
 										<li>
-											<a href="#">Visiting</a>
-										</li>
-										<li>
 											<a href="#">Campus Tour</a>
 										</li>
 										<li>
 											<a href="#">Student Life</a>
 										</li>
 										<li>
-											<a href="#">Scholarship</a>
-										</li>
-										<li>
-											<a href="#">
-												Clubs and Organizations
-											</a>
+											<Link href="/scholarships">
+												<a>Scholarship</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -148,102 +145,6 @@ function admission() {
 					</div>
 				</div>
 			</div>
-
-			{/*<div className="program-area bg-f4f6f9 pt-100 pb-70">
-				<div className="container">
-					<div className="section-title">
-						<h2>Applying To Other Programs</h2>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipiscing
-							elit ut elit tellus luctus nec ullamcorper mattis
-						</p>
-					</div>
-					<div className="row justify-content-center">
-						<div className="col-lg-4 col-md-6">
-							<div className="single-program-card">
-								<div className="program-image">
-									<a href="academics.html">
-										<img
-											src="assets/images/health-care/health-care-1.jpg"
-											alt="Image"
-										/>
-									</a>
-								</div>
-								<div className="program-content">
-									<h3>
-										<a href="academics.html">
-											Summer Session
-										</a>
-									</h3>
-									<p>
-										Lorem ipsum dolor sit amet consectetur a
-										piscing elit ut elit tellus luctus nec
-										dolor sit amet consec teturul
-									</p>
-									<a href="#" className="read-more-btn">
-										Summer Session
-										<i className="flaticon-next"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-4 col-md-6">
-							<div className="single-program-card">
-								<div className="program-image">
-									<a href="academics.html">
-										<img
-											src="assets/images/health-care/health-care-2.jpg"
-											alt="Image"
-										/>
-									</a>
-								</div>
-								<div className="program-content">
-									<h3>
-										<a href="academics.html">
-											Lifelong Learning
-										</a>
-									</h3>
-									<p>
-										Lorem ipsum dolor sit amet consectetur a
-										piscing elit ut elit tellus luctus nec
-										dolor sit amet consec teturul
-									</p>
-									<a href="#" className="read-more-btn">
-										Continuing Education Programs
-										<i className="flaticon-next"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-4 col-md-6">
-							<div className="single-program-card">
-								<div className="program-image">
-									<a href="academics.html">
-										<img
-											src="assets/images/health-care/health-care-3.jpg"
-											alt="Image"
-										/>
-									</a>
-								</div>
-								<div className="program-content">
-									<h3>
-										<a href="academics.html">Postdocs</a>
-									</h3>
-									<p>
-										Lorem ipsum dolor sit amet consectetur a
-										piscing elit ut elit tellus luctus nec
-										dolor sit amet consec teturul
-									</p>
-									<a href="#" className="read-more-btn">
-										Postdoctoral Positions
-										<i className="flaticon-next"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>*/}
 		</>
 	);
 }

@@ -328,7 +328,7 @@ function about() {
 						>
 							<div className="p-3">
 								<div>
-									<h2>Our Almni</h2>
+									<h2>Our Alumni</h2>
 								</div>
 
 								<div
