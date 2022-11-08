@@ -131,7 +131,7 @@ function Header() {
 									Our History & Values
 								</NavDropdown.Item>
 								<NavDropdown.Item
-									href="#"
+									href="/principalOfficers"
 									className="text-dark"
 								>
 									Principal Officers
@@ -215,7 +215,7 @@ function Header() {
 							) : (
 								loggedRouter()
 							)}
-							<Nav.Link href="#" className="text-dark">
+							<Nav.Link href="/finance" className="text-dark">
 								Finance
 							</Nav.Link>
 						</Nav>
