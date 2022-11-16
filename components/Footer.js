@@ -18,7 +18,7 @@ function Footer() {
 								</Link>
 
 								<h3 style={{ color: '#fff' }}>
-									l'Institut Universitaire le Grand Berger
+									Great Shepherd University
 								</h3>
 								<div className="contact-list">
 									<ul>

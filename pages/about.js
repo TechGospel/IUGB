@@ -227,7 +227,7 @@ function about() {
 						>
 							<img
 								className="w-100 responsive"
-								src="/assets/images/campus-life/vc.jpg"
+								src="assets/images/president.jpg"
 								alt="stdent image"
 							/>
 						</div>

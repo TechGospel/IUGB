@@ -31,7 +31,7 @@ function principalOfficers() {
 								<div class="program-image">
 									<a href="#">
 										<img
-											src="assets/images/vc.jpg"
+											src="assets/images/president.jpg"
 											alt="Image"
 										/>
 									</a>
@@ -52,7 +52,7 @@ function principalOfficers() {
 								<div class="program-image">
 									<a href="#">
 										<img
-											src="assets/images/president.jpg"
+											src="assets/images/vc.jpg"
 											alt="Image"
 										/>
 									</a>

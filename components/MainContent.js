@@ -178,11 +178,8 @@ function MainContent() {
 			<div className="academic-area pt-100 pb-70 bg-f4f6f9">
 				<div className="container">
 					<div className="section-title">
-						<h2>Academics</h2>
-						<p>
-							Our programmes cut across various levels tailored to
-							suit your need
-						</p>
+						<h2>Gallery</h2>
+						<p>Explore Our Events and Important Moments</p>
 					</div>
 					<div className="row justify-content-center">
 						<div
@@ -192,28 +189,14 @@ function MainContent() {
 							data-aos-delay="200"
 							data-aos-once="true"
 						>
-							<div className="single-academics-card2 bg-1">
-								<div className="serial">
-									<p>01.</p>
-								</div>
-								<div className="academic-content">
-									<div className="academic-top-content">
-										<i className="flaticon-graduation"></i>
-										<a href="academics-details.html">
-											<h3>Undergraduate Education</h3>
-										</a>
-									</div>
-									<p>
-										Kickstart a life long academic journey
-										with a recognized and globally
-										acceptable institution
-									</p>
-									<Link href="/">
-										<a className="read-more-btn white-color">
-											Undergraduate Education
-											<i className="flaticon-next"></i>
-										</a>
-									</Link>
+							<div class="single-events-card style-4">
+								<div class="events-image">
+									<a href="#">
+										<img
+											src="assets/images/gallery/NYSC1.jpeg"
+											alt="Image"
+										/>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -224,28 +207,14 @@ function MainContent() {
 							data-aos-delay="400"
 							data-aos-once="true"
 						>
-							<div className="single-academics-card2 bg-2">
-								<div className="serial">
-									<p>02.</p>
-								</div>
-								<div className="academic-content">
-									<div className="academic-top-content">
-										<i className="flaticon-graduation"></i>
-										<a href="academics-details.html">
-											<h3>Graduate Education</h3>
-										</a>
-									</div>
-									<p>
-										Develop mastery in your chosen field of
-										expertise and take a deep dive into a
-										world of unlimited knowledge
-									</p>
-									<Link href="/">
-										<a className="read-more-btn white-color">
-											Graduate Education
-											<i className="flaticon-next"></i>
-										</a>
-									</Link>
+							<div class="single-events-card style-4">
+								<div class="events-image">
+									<a href="#">
+										<img
+											src="assets/images/gallery/matric.jpg"
+											alt="Image"
+										/>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -256,28 +225,14 @@ function MainContent() {
 							data-aos-delay="600"
 							data-aos-once="true"
 						>
-							<div className="single-academics-card2 bg-3">
-								<div className="serial">
-									<p>03.</p>
-								</div>
-								<div className="academic-content">
-									<div className="academic-top-content">
-										<i className="flaticon-graduation"></i>
-										<a href="academics-details.html">
-											<h3>Lifelong Learning</h3>
-										</a>
-									</div>
-									<p>
-										Learning never ends. Gain new skills
-										that bring productivity and satisfaction
-										in your everyday life.
-									</p>
-									<Link href="/">
-										<a className="read-more-btn white-color">
-											Professional Education
-											<i className="flaticon-next"></i>
-										</a>
-									</Link>
+							<div class="single-events-card style-4">
+								<div class="events-image">
+									<a href="#">
+										<img
+											src="assets/images/gallery/convo3.jpg"
+											alt="Image"
+										/>
+									</a>
 								</div>
 							</div>
 						</div>

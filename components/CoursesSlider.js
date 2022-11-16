@@ -35,7 +35,7 @@ function CoursesSlider() {
 				<div className="courses-content">
 					<div className="admin-profile"></div>
 					<a href="#">
-						<h3>Compter Science</h3>
+						<h3>Computer Science</h3>
 					</a>
 				</div>
 			</div>
