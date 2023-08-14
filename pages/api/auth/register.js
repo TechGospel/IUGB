@@ -1,45 +1,45 @@
 /* eslint-disable import/no-anonymous-default-export */
-import connectDB from '../../../utils/connectDB';
-import Users from '../../../models/userModel';
-import valid from '../../../utils/valid';
-import bcrypt from 'bcrypt';
+import connectDB from "../../../utils/connectDB";
+import Users from "../../../models/userModel";
+import valid from "../../../utils/valid";
+import bcrypt from "bcrypt";
 
 connectDB();
 
 export default async (req, res) => {
-	switch (req.method) {
-		case 'POST':
-			await register(req, res);
-			break;
-	}
+    switch (req.method) {
+        case "POST":
+            await register(req, res);
+            break;
+    }
 };
 
 const register = async (req, res) => {
-	try {
-		const { firstname, lastname, email, password, phoneNo, cf_password } =
-			req.body;
+    try {
+        const { firstname, lastname, email, password, phoneNo, cf_password } =
+            req.body;
 
-		const errMsg = valid(firstname, lastname, email, password, cf_password);
-		if (errMsg) return res.status(400).json({ err: errMsg });
+        const errMsg = valid(firstname, lastname, email, password, cf_password);
+        if (errMsg) return res.status(400).json({ err: errMsg });
 
-		const user = await Users.findOne({ email });
-		if (user)
-			return res.status(400).json({ err: 'This email already exists.' });
+        const user = await Users.findOne({ email });
+        if (user)
+            return res.status(400).json({ err: "This email already exists." });
 
-		const passwordHash = await bcrypt.hash(password, 12);
+        const passwordHash = await bcrypt.hash(password, 12);
 
-		const newUser = new Users({
-			firstname,
-			lastname,
-			email,
-			phoneNo,
-			password: passwordHash,
-			cf_password,
-		});
+        const newUser = new Users({
+            firstname,
+            lastname,
+            email,
+            phoneNo,
+            password: passwordHash,
+            cf_password,
+        });
 
-		await newUser.save();
-		res.json({ msg: 'Register Success!' });
-	} catch (err) {
-		return res.status(500).json({ err: err.message });
-	}
+        await newUser.save();
+        res.json({ msg: "Register Success!" });
+    } catch (err) {
+        return res.status(500).json({ err: err.message });
+    }
 };

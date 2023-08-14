@@ -1,28 +1,28 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 function finance() {
-	return (
-		<>
-			<div className="page-banner-area bg-2">
-				<div className="container">
-					<div className="page-banner-content">
-						<h1>Finance</h1>
-						<ul>
-							<li>
-								<Link href="/">
-									<a>Home</a>
-								</Link>
-							</li>
-							<li>Fees & Dues</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+    return (
+        <>
+            <div className="page-banner-area bg-2">
+                <div className="container">
+                    <div className="page-banner-content">
+                        <h1>Finance</h1>
+                        <ul>
+                            <li>
+                                <Link href="/">
+                                    <a>Home</a>
+                                </Link>
+                            </li>
+                            <li>Fees & Dues</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-			<div className="academics-area pt-100 bg-light">
-				<div className="container">
-					{/* <div className="row">
+            <div className="academics-area pt-100 bg-light">
+                <div className="container">
+                    {/* <div className="row">
 						<div
 							className="col-md-6"
 							style={{ padding: '0', margin: '0' }}
@@ -51,116 +51,132 @@ function finance() {
 							</div>
 						</div>
 					</div> */}
-					<table>
-						<thead>
-							<td>S/N</td>
-							<td>DETAILS</td>
-							<td>NAIRA</td>
-							<td>REMARKS</td>
-						</thead>
-						<tbody>
-							<tr>
-								<td>1</td>
-								<td>Application Form</td>
-								<td>₦10,000</td>
-								<td>Once</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>Acceptance Fees</td>
-								<td>₦10,000</td>
-								<td>Once</td>
-							</tr>
-							<tr>
-								<td>3</td>
-								<td>Development Levy</td>
-								<td>₦15,000</td>
-								<td>Yearly</td>
-							</tr>
-							<tr>
-								<td>4</td>
-								<td>Student Synergy</td>
-								<td>₦10,000</td>
-								<td>Yearly</td>
-							</tr>
-							<tr>
-								<td>5</td>
-								<td>ID Card</td>
-								<td>₦1,500</td>
-								<td>Yearly</td>
-							</tr>
-							<tr>
-								<td>6</td>
-								<td>Matriculation</td>
-								<td>₦25,500</td>
-								<td>Once</td>
-							</tr>
-							<tr>
-								<td>7</td>
-								<td>SUSA Dues (Student Association)</td>
-								<td>₦1,000</td>
-								<td>Per Semester</td>
-							</tr>
-							<tr>
-								<td>8</td>
-								<td>Library</td>
-								<td>₦5,000</td>
-								<td>Yearly</td>
-							</tr>
-							<tr>
-								<td>9</td>
-								<td>Transfer fee (Student on transfer)</td>
-								<td>₦50,000</td>
-								<td>Once</td>
-							</tr>
-							<tr>
-								<td>10</td>
-								<td>internet</td>
-								<td>₦10,000</td>
-								<td>Yearly</td>
-							</tr>
-							<tr>
-								<td>10</td>
-								<td>internet</td>
-								<td>₦10,000</td>
-								<td>Yearly</td>
-							</tr>
-							<tr>
-								<td>11</td>
-								<td>Tuition (7th Semester)</td>
-								<td>₦200,000</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>12</td>
-								<td>Tuition (8th Semester)</td>
-								<td>₦200,000</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>13</td>
-								<td>Hostel (7th Semester)</td>
-								<td>₦50,000</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>14</td>
-								<td>Hostel (8th Semester)</td>
-								<td>₦50,000</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>Grand Total</td>
-								<td>₦652,500</td>
-								<td></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-		</>
-	);
+                    <table>
+                        <thead>
+                            <td>S/N</td>
+                            <td>DETAILS</td>
+                            <td>CFA</td>
+                            <td>REMARKS</td>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Student Form</td>
+                                <td>12,000</td>
+                                <td>One Off</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Registration Form</td>
+                                <td>40,000</td>
+                                <td>Per Session</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>ID Card</td>
+                                <td>5,000</td>
+                                <td>Per Session</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Matriculation Fee</td>
+                                <td>25,000</td>
+                                <td>One Off</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Synergy (Uniform)</td>
+                                <td>7,000</td>
+                                <td>Per Session</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>French Volumne I& II Handbook</td>
+                                <td>10,000</td>
+                                <td>One Off</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Internet </td>
+                                <td>15,000</td>
+                                <td>Per Semester</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>I.C.T</td>
+                                <td>15,000</td>
+                                <td>Per Semester</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Examination Fees</td>
+                                <td>3,000</td>
+                                <td>Per Semester</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Library</td>
+                                <td>5,000</td>
+                                <td>Per Semester</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Development Levy</td>
+                                <td>5,000</td>
+                                <td>One Off</td>
+                            </tr>
+
+                            <tr>
+                                <td>12</td>
+                                <td>Tuition (Applied Sciences)</td>
+                                <td>203,750</td>
+                                <td>Per Semester</td>
+                            </tr>
+
+                            <tr>
+                                <td>13</td>
+                                <td>Tuition (Management Sciences)</td>
+                                <td>110,000</td>
+                                <td>Per Semester</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>Tuition (Technology & Related Sciences)</td>
+                                <td>127,250</td>
+                                <td>Per Semester</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>Tuition (Law)</td>
+                                <td>250,000</td>
+                                <td>Per Semester</td>
+                            </tr>
+
+                            <tr>
+                                <td>13</td>
+                                <td>Hostel fees </td>
+                                <td>65,000</td>
+                                <td>Per Semester</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>Acceptance fees </td>
+                                <td>25,000</td>
+                                <td>Per Semester</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h5 className="my-3">
+                        Note:{" "}
+                        <span>
+                            Fees are allowed to be paid in three installments
+                        </span>
+                    </h5>
+                </div>
+            </div>
+        </>
+    );
 }
 
 export default finance;
